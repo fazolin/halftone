@@ -3,8 +3,8 @@ import processing.svg.*;
 PImage img;
 
 float r, g, b, lumi;
-int resolution =10; // resoloução do halftone
-int factorEllipse = 100;
+int resolution =10; // resolução do halftone
+int factorEllipse = 100; // tamanho da elipse ( maior o número, menos a ellipse)
 
 void setup() {
   size(1844, 771); // colocar resolução do arquivo original
